@@ -1,0 +1,33 @@
+@import '~antd/dist/antd.css';
+
+.character {
+    position: relative;
+}
+
+.character:hover  .charInfo{
+    display: block;
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    padding: 5px;
+    background-color: rgba(255,255,255, .8);
+    width: 80%;
+    transition: 4s;
+    border-radius: 10px;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.avatar {
+    cursor: pointer;
+    margin: 5px;
+
+}
+
+.charInfo {
+    display: none;
+}
+
+.avatar:hover {
+    opacity: .6;
+}
